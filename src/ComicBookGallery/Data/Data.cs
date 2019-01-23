@@ -10,6 +10,11 @@ namespace ComicBookGallery.Data
     {
         public static Series[] Series { get; private set; }
         public static ComicBook[] ComicBooks { get; private set; }
+
+        static Data()
+        {
+            InitData();
+        }
        
         public static void InitData()
         {
